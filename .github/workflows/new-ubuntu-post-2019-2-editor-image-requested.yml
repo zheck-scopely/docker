@@ -4,6 +4,7 @@ on:
   repository_dispatch:
     types:
       - new_post_2019_2_editor_image_requested
+  workflow_dispatch: # This enables manual runs of the workflow
 
 # Further reading:
 # https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows#repository_dispatch
