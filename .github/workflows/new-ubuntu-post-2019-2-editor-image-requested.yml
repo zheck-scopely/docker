@@ -74,7 +74,7 @@ jobs:
           build-args: |
             hubImage=unityci/hub:3.1.0
             baseImage=unityci/base:3.1.0
-            version=2021.3.23f11
+            version=2021.3.23f1
             changeSet=213b516bf396
             module=android
           push: false
