@@ -103,8 +103,6 @@ jobs:
             version=2021.3.23f11
             changeSet=213b516bf396
             module=android
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache
           push: false
           tags: |
             unityci/editor:asdf
