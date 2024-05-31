@@ -32,9 +32,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Add original repository as a remote
+        run: |
+          git remote add upstream https://github.com/game-ci/docker.git
+          git fetch upstream --tags
+
       - name: Checkout latest release tag
         run: |
-          git checkout v3.1.0
+          git checkout tags/v3.1.0
 
       #################
       #   Variables   #
